@@ -9,8 +9,8 @@
 
 
 ## About
-This is a small project about Among Us.
-In order to practice animation, I have used @keyframes and lottie files.
+- This is a small project about Among Us.
+- In order to practice animation, I have used @keyframes and lottie files.
 
 ## Technology used
 - Html5 (Hypertext)
