@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Among Us - Who is the impostor?</title>
+        <link rel='stylesheet' href='/styles/styles.css'/>
+
+    </head>
+    <body>
+           <div class="impostor"></div>            
+       
+    </body>
+      
+    <script src="/public/lottie.min.js" type="text/javascript"></script> 
+
+    <script>  
+    
+        const element = document.querySelector('.impostor')
+        lottie.loadAnimation({
+        container: element, // the dom element that will contain the animation
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'public/38228-among-us-sticker-8.json' // the path to the animation json
+      });
+
+      setTimeout(()=> { location.href="/index.html"}, 3000)
+    </script>
+
+
+</html>
+
